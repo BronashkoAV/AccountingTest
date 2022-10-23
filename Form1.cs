@@ -17,5 +17,47 @@ namespace AccountingTest
             InitializeComponent();
         }
 
+        private void ShowForm(Form form)
+        {
+            form.MdiParent = this;
+            form.Show();
+            form.Activate();
+        }
+
+        private void toolStripMenuItemСategoriesCost_Click(object sender, EventArgs e)
+        {
+            if (Application.OpenForms["FormCategoriesCost"]==null)
+            {
+                ShowForm(FormCategoriesCost.Instance);
+            }
+            else
+            {
+                FormCategoriesCost.Instance.Activate();
+            }
+        }
+
+        private void toolStripMenuItemExpenses_Click(object sender, EventArgs e)
+        {
+            if (Application.OpenForms["FormExpenses"] == null)
+            {
+                ShowForm(FormExpenses.Instance);
+            }
+            else
+            {
+                FormExpenses.Instance.Activate();
+            }
+        }
+
+        private void toolStripMenuItemstatistics_Click(object sender, EventArgs e)
+        {
+            if (Application.OpenForms["FormStatistics"] == null)
+            {
+                ShowForm(FormStatistics.Instance);
+            }
+            else
+            {
+                FormStatistics.Instance.Activate();
+            }
+        }
     }
 }
