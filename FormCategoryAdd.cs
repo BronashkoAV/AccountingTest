@@ -8,34 +8,34 @@ using System.Windows.Forms;
 
 namespace AccountingTest
 {
-    public partial class FormStatistics : Form
+    public partial class FormCategoryAdd : Form
     {
-        private static FormStatistics _instance;
+        private static FormCategoryAdd _instance;
 
-        public static FormStatistics Instance
+        public static FormCategoryAdd Instance
         {
             get
             {
                 if (_instance == null)
                 {
-                    _instance = new FormStatistics();
+                    _instance = new FormCategoryAdd();
                 }
                 return _instance;
             }
         }
-        public FormStatistics()
+        public FormCategoryAdd()
         {
             InitializeComponent();
         }
 
-        private void FormStatistics_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void FormStatistics_FormClosed(object sender, FormClosedEventArgs e)
+        private void FormCategoryAdd_FormClosed(object sender, FormClosedEventArgs e)
         {
             _instance = null;
+        }
+
+        private void ButtonCancel_Click(object sender, EventArgs e)
+        {
+            _instance.Close();
         }
     }
 }
