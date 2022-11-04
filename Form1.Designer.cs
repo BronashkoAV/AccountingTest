@@ -45,7 +45,7 @@ namespace AccountingTest
             this.еoolStripMenuItemStatistics});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(882, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1902, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -54,27 +54,27 @@ namespace AccountingTest
             this.toolStripMenuItemСategoriesСщые.Name = "toolStripMenuItemСategoriesСщые";
             this.toolStripMenuItemСategoriesСщые.Size = new System.Drawing.Size(144, 24);
             this.toolStripMenuItemСategoriesСщые.Text = "Категории затрат";
-            this.toolStripMenuItemСategoriesСщые.Click += new System.EventHandler(this.toolStripMenuItemСategoriesCost_Click);
+            this.toolStripMenuItemСategoriesСщые.Click += new System.EventHandler(this.ToolStripMenuItemСategoriesCost_Click);
             // 
             // toolStripMenuItemExpenses
             // 
             this.toolStripMenuItemExpenses.Name = "toolStripMenuItemExpenses";
             this.toolStripMenuItemExpenses.Size = new System.Drawing.Size(81, 24);
             this.toolStripMenuItemExpenses.Text = "Расходы";
-            this.toolStripMenuItemExpenses.Click += new System.EventHandler(this.toolStripMenuItemExpenses_Click);
+            this.toolStripMenuItemExpenses.Click += new System.EventHandler(this.ToolStripMenuItemExpenses_Click);
             // 
             // еoolStripMenuItemStatistics
             // 
             this.еoolStripMenuItemStatistics.Name = "еoolStripMenuItemStatistics";
             this.еoolStripMenuItemStatistics.Size = new System.Drawing.Size(98, 24);
             this.еoolStripMenuItemStatistics.Text = "Статистика";
-            this.еoolStripMenuItemStatistics.Click += new System.EventHandler(this.toolStripMenuItemstatistics_Click);
+            this.еoolStripMenuItemStatistics.Click += new System.EventHandler(this.ToolStripMenuItemstatistics_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(882, 553);
+            this.ClientSize = new System.Drawing.Size(1902, 1033);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
