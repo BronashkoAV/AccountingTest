@@ -24,7 +24,7 @@ namespace AccountingTest
             form.Activate();
         }
 
-        private void toolStripMenuItemСategoriesCost_Click(object sender, EventArgs e)
+        private void ToolStripMenuItemСategoriesCost_Click(object sender, EventArgs e)
         {
             if (Application.OpenForms["FormCategoriesCost"]==null)
             {
@@ -36,7 +36,7 @@ namespace AccountingTest
             }
         }
 
-        private void toolStripMenuItemExpenses_Click(object sender, EventArgs e)
+        private void ToolStripMenuItemExpenses_Click(object sender, EventArgs e)
         {
             if (Application.OpenForms["FormExpenses"] == null)
             {
@@ -48,7 +48,7 @@ namespace AccountingTest
             }
         }
 
-        private void toolStripMenuItemstatistics_Click(object sender, EventArgs e)
+        private void ToolStripMenuItemstatistics_Click(object sender, EventArgs e)
         {
             if (Application.OpenForms["FormStatistics"] == null)
             {

@@ -38,5 +38,10 @@ namespace AccountingTest
         {
             _instance = null;
         }
+
+        private void ToolStripButtonAdd_Click(object sender, EventArgs e)
+        {
+            FormCategoryAdd.Instance.ShowDialog();
+        }
     }
 }
